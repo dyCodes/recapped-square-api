@@ -11,5 +11,5 @@ app.use(bodyParser.json());
 // Routes
 app.use("/api", routes);
 
-// start the server
+// Start server
 app.listen(process.env.PORT || 8000);
