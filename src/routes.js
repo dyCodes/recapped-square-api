@@ -33,7 +33,7 @@ router.post("/subscribe/:customerId", async (req, res) => {
 			cardholderName: name,
 			billingAddress: {
 				addressLine1: address,
-				country: "US",
+				country: "NG",
 			},
 			customerId: customerId,
 		},

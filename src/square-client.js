@@ -7,8 +7,7 @@ const client = new Client({
 });
 
 const location_id = process.env.SQUARE_LOCATION_ID;
-const plan_id = "DGRCVV4WR2S5YYHQSO244JBG";
-// const { locationsApi } = client;
+const plan_id = process.env.SQUARE_PLAN_ID;
 
 module.exports = {
 	client,
