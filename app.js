@@ -9,12 +9,7 @@ const routes = require("./src/routes");
 
 // Middleware
 app.use(bodyParser.json());
-
-app.use(
-	cors({
-		origin: "*",
-	})
-);
+app.use(cors({ origin: "*" }));
 
 // Routes
 app.use("/api", routes);
